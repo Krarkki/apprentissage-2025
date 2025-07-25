@@ -5,7 +5,7 @@ public class Main {
         int num ;
         num = 5 ;
         num = 10 ;
-        final int immuable = 20 ;
+        final int immuable = 30 ;
         System.out.println(num + immuable);
 
 
