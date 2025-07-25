@@ -2,11 +2,9 @@ package ej;
 
 public class Main {
     public static void main(String[] args) {
-       String motdEntree = "Hello World!" ;
-       String phrase = motdEntree ;
+        String phrase = "Hello World!";
         System.out.println(phrase);
-
-
-
     }
+
+
 }
