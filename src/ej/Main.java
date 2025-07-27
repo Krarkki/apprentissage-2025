@@ -2,10 +2,15 @@ package ej;
 
 public class Main {
     public static void main(String[] args) {
-        int tableau [] = {25,55,66,0,75,48,62};
+        int tableau [] = {25,0,66,0,75,0,62};
         int cpt = 0 ;
-        for (int i = tableau.length ; tableau [i] == 0 ; cpt++) {
-            System.out.println(cpt);
+        for (int i = 0 ;  i < tableau.length ; i++) {
+            if (tableau[i] == 0) {
+                cpt++;
+                System.out.println(cpt);}
+
+
+
 
 
         }
